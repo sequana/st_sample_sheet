@@ -242,17 +242,17 @@ called reads are stored as undetermined. Not very useful. We make the [Data] sec
             "Please see the [online documentation](https://sequana.readthdocs.io) as well as https://sequana.github.io for more information."
             "The code used in this application is based on the [IEM module](https://github.com/sequana/sequana) of the Sequana Python library."
             "It was created based on the bcl2fastq documentation v2.20 and should be of interest for users willing to demultiplex their data properly."
-            "\n\nThe different checks performed are described in this paper: [biorxiv](link)"
+            "\n\nThe different checks performed are described in this preprint: [researchsquare](https://www.researchsquare.com/article/rs-5268893/v1)"
         )
         st.info(
             "Application Author: Thomas Cokelaer\n\nIEM module provided by The Sequana Team\n\nOriginal beta testing: Laure Lemée, Etienne Kornobis, Rania Ouazahrou"
         )
     else:
         st.subheader("How to cite ? ")
-        st.info("Check My Sample Sheet application (this website):\n\nLemée et al [biorxiv](link)")
+        st.info("Check My Sample Sheet application (this website):\n\nLemée L. et al [researchsquare](https://www.researchsquare.com/article/rs-5268893/v1)")
 
         st.info(
-            "The Sequana application to check the sample sheet: \n\nCokelaer et al, (2017), 'Sequana': a Set of Snakemake NGS pipelines, Journal of Open Source Software, 2(16), 352, JOSS DOI [doi:10.21105/joss.00352](https://joss.theoj.org/papers/10.21105/joss.00352)"
+            "The Sequana application to check the sample sheet: \n\nCokelaer T. et al, (2017), 'Sequana': a Set of Snakemake NGS pipelines, Journal of Open Source Software, 2(16), 352, JOSS DOI [doi:10.21105/joss.00352](https://joss.theoj.org/papers/10.21105/joss.00352)"
         )
 
 
